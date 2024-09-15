@@ -1,0 +1,13 @@
+prefix=/Users/caiyikai/Desktop/Roadmap_to_DS/CTR_prediction/venv
+exec_prefix=/Users/caiyikai/Desktop/Roadmap_to_DS/CTR_prediction/venv
+libdir=/Users/caiyikai/Desktop/Roadmap_to_DS/CTR_prediction/venv/lib
+sharedlibdir=/Users/caiyikai/Desktop/Roadmap_to_DS/CTR_prediction/venv/lib
+includedir=/Users/caiyikai/Desktop/Roadmap_to_DS/CTR_prediction/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
